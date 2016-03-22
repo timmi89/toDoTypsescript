@@ -16,6 +16,6 @@ import { Task } from './task.model';
 export class TaskComponent {
   public task: Task;
   toggleDone(setState: boolean){
-    this.task.done = setState;
+    this.task.done = setState; 
   }
 }
